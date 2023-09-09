@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./App.css";
-import img from "./assets/Images/PassportSize.png";
+// import "./App.css";
+// import img from "./assets/Images/PassportSize.png";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -102,9 +102,8 @@ function App() {
               </button>
             </div>
             <div
-              className={`items-center justify-between ${
-                isMenuOpen ? "" : "hidden"
-              } w-full md:flex md:w-auto md:order-1`}
+              className={`items-center justify-between ${isMenuOpen ? "" : "hidden"
+                } w-full md:flex md:w-auto md:order-1`}
               id="navbar-sticky"
             >
               <div className="relative mt-3 md:hidden">
@@ -163,6 +162,9 @@ function App() {
           </div>
         </nav>
       </div>
+
+
+
     </>
   );
 }

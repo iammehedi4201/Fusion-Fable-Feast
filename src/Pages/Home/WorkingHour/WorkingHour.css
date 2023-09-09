@@ -1,0 +1,9 @@
+.schdule-title{
+    text-align: center;
+    padding: 20px 45px;
+    background-image: url(	https://qichen-react.vercel.app/assets/images/shape/hour-bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+   
+}
