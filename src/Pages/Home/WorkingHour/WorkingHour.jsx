@@ -4,8 +4,8 @@ import SectionTitle from '../../../Components/SectionTitle/SectionTitle';
 
 const WorkingHour = () => {
     return (
-        <div className='flex items-center justify-between gap-10 bg-[#fdf1ed] p-10'>
-            <section className='w-1/2'>
+        <div className=' flex flex-col-reverse sm:flex-row items-center justify-between gap-10 bg-[#fdf1ed] p-10'>
+            <section className='sm:w-1/2 w-full'>
                 <SectionTitle
                     subHeading={"WORKING HOUR"}
                     heading={'Enjoy Our Foods From 6 Days In a Week'}
@@ -36,8 +36,8 @@ const WorkingHour = () => {
                 </div>
 
             </section>
-            <section className='w-1/2 flex justify-end '>
-                 <img className='object-cover w-8/12 h-auto' src="	https://qichen-react.vercel.app/assets/images/menu/menu-single-1.jpg" alt="" />
+            <section className='sm:w-1/2 w-full flex sm:justify-end justify-center '>
+                 <img className='object-cover sm:w-8/12 h-auto' src="	https://qichen-react.vercel.app/assets/images/menu/menu-single-1.jpg" alt="" />
             </section>
         </div>
     );

@@ -4,8 +4,8 @@ import SectionTitle from '../../../Components/SectionTitle/SectionTitle';
 
 const Chefs = () => {
     return (
-        <div className='flex gap-16 bg-[#fdf1ed] p-10'>
-            <section className='w-1/3'>
+        <div className=' flex flex-col-reverse sm:flex-row gap-16 bg-[#fdf1ed] p-10'>
+            <section className='sm:w-1/3'>
                 <SectionTitle
                     subHeading={"----OUR CHEFS----"}
                     heading={"Meet Our Exclusive & Master Chefs"}
@@ -19,8 +19,8 @@ const Chefs = () => {
             </section>
             <section className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 ">
 
-                <div className="rounded-lg bg-gray-100">
-                    <div class="w-full px-4 mb-4  lg:mb-0">
+                <div className="rounded-lg w-full">
+                    <div class="w-full sm:px-4 mb-4  lg:mb-0">
                         <div class="p-6 bg-white rounded shadow dark:bg-gray-700 group">
                             <a class="block mb-2" href="#">
                                 <div class="relative overflow-hidden">
@@ -63,8 +63,8 @@ const Chefs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="rounded-lg bg-gray-100">
-                    <div class="w-full px-4 mb-4  lg:mb-0">
+                <div className="rounded-lg">
+                    <div class="w-full sm:px-4 mb-4  lg:mb-0">
                         <div class="p-6 bg-white rounded shadow dark:bg-gray-700 group">
                             <a class="block mb-2" href="#">
                                 <div class="relative overflow-hidden">
@@ -107,8 +107,8 @@ const Chefs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="rounded-lg bg-gray-100">
-                    <div class="w-full px-4 mb-4  lg:mb-0">
+                <div className="rounded-lg">
+                    <div class="w-full sm:px-4 mb-4  lg:mb-0">
                         <div class="p-6 bg-white rounded shadow dark:bg-gray-700 group">
                             <a class="block mb-2" href="#">
                                 <div class="relative overflow-hidden">

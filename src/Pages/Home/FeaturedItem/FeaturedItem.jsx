@@ -12,11 +12,11 @@ const FeaturedItem = () => {
                 subHeading={'---Check it out---'}
                 heading={'FROM OUR MENU'}
             ></SectionTitle>
-            <section className='sm:flex justify-center items-center space-x-7 pb-24  px-52'>
+            <section className=' flex flex-col sm:flex-row justify-center items-center space-x-7 pb-24 px-5 sm:px-52'>
                 <div>
                     <img className='relative z-10' src={featuredImg} alt="" />
                 </div>
-                <div className='space-y-4'>
+                <div className='space-y-4 mt-10 sm:mt-0'>
                     <h4 className='font-[Inter] font-semibold uppercase text-white relative z-10'>March 20, 2023</h4>
                     <h3 className='font-[Inter] font-semibold  uppercase text-white relative z-10'>WHERE CAN I GET SOME?</h3>
                     <p className='font-[Inter] font-normal leading-6 text-white relative z-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptate facere, deserunt dolores maiores quod nobis quas quasi. Eaque repellat recusandae ad laudantium tempore consequatur consequuntur omnis ullam maxime tenetur.</p>

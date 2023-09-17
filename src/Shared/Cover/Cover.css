@@ -1,0 +1,15 @@
+.bg-effect{
+    background: rgba(21, 21, 21, 0.60);
+    padding: 70px 160px;
+    min-height: 20vh;
+}
+ 
+/* Media query for small screens */
+@media (max-width: 320px) {
+    .bg-effect{
+        background: rgba(21, 21, 21, 0.60);
+        padding: 70px 20px;
+        min-height: 20vh;
+    }
+  }
+  

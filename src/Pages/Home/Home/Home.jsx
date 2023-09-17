@@ -8,10 +8,14 @@ import AboutFableFeast from '../AboutFableFeast/AboutFableFeast';
 import Chefs from '../Chefs/Chefs';
 import WorkingHour from '../WorkingHour/WorkingHour';
 import BookTable from '../../BookTable/BookTable';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
     return (
         <div className='space-y-20'>
+            <Helmet>
+                <title>Fuion Fable Feast | Home</title>
+            </Helmet>
             <Banner></Banner>
             <Category></Category>
             <AboutFableFeast></AboutFableFeast>
@@ -19,8 +23,8 @@ const Home = () => {
             <Chefs></Chefs>
             <WorkingHour></WorkingHour>
             <FeaturedItem></FeaturedItem>
-            <Reviews></Reviews>
             <BookTable></BookTable>
+            <Reviews></Reviews>
         </div>
     );
 };

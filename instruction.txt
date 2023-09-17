@@ -39,3 +39,50 @@
                  console.log(data);
          })
          .catch(error=>console.error(error))
+
+------------------------------------------------------------
+
+>>>>Find a exceptional error : 
+    export const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Main></Main>,
+    children: [
+      {
+        path: '/',
+        element: <Home></Home>
+      },
+      {
+        path: 'menu', // Removed the leading slash
+        element: <Menu></Menu>
+      },
+      {
+        path: 'order/:category', // Removed the leading slash
+        element: <Order></Order>
+      },
+      {
+        path: 'login', // Removed the leading slash
+        element: <Login></Login>
+      },
+      {
+        path: 'signup', // Removed the leading slash
+        element: <SignUp></SignUp>
+      },
+      {
+        path: 'test', // Removed the leading slash
+        element: <AboutUs></AboutUs>
+      }
+    ]
+  },
+  {
+    path: '/dashboard',
+    element: <Dashboard></Dashboard>,
+    children: [
+      {
+        path: 'mycart', // Make the path relative to '/dashboard'
+        element: <Mycart></Mycart>
+      }
+    ]
+  }
+]);
+

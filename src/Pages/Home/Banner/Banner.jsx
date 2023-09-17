@@ -11,8 +11,8 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <div>
-            <Carousel autoPlay infiniteLoop showThumbs>
+        <div className='max-w-screen-2xl mx-auto'>
+            <Carousel  infiniteLoop showThumbs>
                 <div>
                     <img src={img1} />
                 </div>

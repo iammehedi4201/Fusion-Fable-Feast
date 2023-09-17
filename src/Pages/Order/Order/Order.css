@@ -1,0 +1,27 @@
+.react-tabs__tab-list {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid goldenrod !important;
+  margin: 0 0 30px !important;
+  padding: 0;
+}
+.react-tabs__tab--selected {
+  background: black!important;
+  border-color: goldenrod!important;
+  color: goldenrod!important;
+  border-radius: 5px 5px 0 0;
+}
+
+.react-tabs__tab {
+  font-weight: 600;
+  font-family: inter;
+  text-align: center;
+  display: inline-block;
+  border: 2px solid transparent !important;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 8px 30px !important;
+  cursor: pointer;
+}

@@ -4,17 +4,17 @@ import SectionTitle from '../../Components/SectionTitle/SectionTitle';
 
 const BookTable = () => {
     return (
-        <div className='flex gap-10 justify-between px-24'>
-            <section className='w-1/2'>
+        <div className=' flex flex-col sm:flex-row gap-10 justify-between sm:px-24 px-5'>
+            <section className='sm:w-1/2 w-full'>
                 <img src="https://qichen-react.vercel.app/assets/images/contact/contact-1.jpg" alt="" />
             </section>
-            <section className='w-1/2 px-12'>
+            <section className='sm:w-1/2 w-full sm:px-12'>
                 <SectionTitle
                     subHeading={"BOOKING TABLE"}
                     heading={"Make A Reservations"}
                 ></SectionTitle>
                 <p className='font-semibold pb-5'>Sit amet consectetur adipiscing elitsue risus mauris adipiscing phasellus aene ante orcirat</p>
-                <form>
+                <form className=''>
                     <div class="form_group">
                         <label><i className="far fa-user"></i></label>
                         <input type="text" className="form_control " placeholder="Person" name="person" />
@@ -49,8 +49,7 @@ const BookTable = () => {
                     </div>
 
                     <div class="form_group">
-                    <button className='btn btn-outline  relative z-10 border-0 border-b-4 mt-5'>BOOK A TABLE</button>
-
+                        <button className='btn btn-outline  relative z-10 border-0 border-b-4 mt-5'>BOOK A TABLE</button>
                     </div>
                 </form>
             </section>
